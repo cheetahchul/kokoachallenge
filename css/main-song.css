@@ -1,0 +1,34 @@
+.main__photo {
+  display: flex;
+  justify-content: center;
+  margin-top: 80px;
+}
+.main__photo img {
+  width: 300px;
+  height: 300px;
+  border-radius: 20px;
+  box-shadow: 5px 5px 5px #f4d8f8;
+}
+.main__song {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 60px;
+}
+.main__song-introduce {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.main__singername {
+  font-size: 40px;
+  font-weight: bolder;
+  margin-bottom: 5px;
+}
+
+.main__song-title {
+  font-size: 25px;
+  color: rgba(0, 0, 0, 0.4);
+  margin-bottom: 40px;
+}

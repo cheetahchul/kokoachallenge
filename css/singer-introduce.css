@@ -1,0 +1,52 @@
+.singer__introduce {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  margin: 10px 30px 30px 10px;
+}
+
+.singer__introduce img {
+  width: 150px;
+  height: 150px;
+  border-radius: 50px;
+  margin-bottom: 20px;
+  box-shadow: 5px 5px 5px #f4d8f8;
+}
+
+.singer_btns {
+  display: flex;
+  justify-content: center;
+}
+.singer_name {
+  font-size: 30px;
+  font-weight: bolder;
+}
+.singer_profile {
+  font-size: 15px;
+  color: rgba(0, 0, 0, 0.4);
+}
+.singer_btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 20px;
+  width: 100px;
+  border: 1px solid black;
+  padding: 10px;
+  margin: 20px 10px;
+  border-radius: 20px;
+}
+
+.black_background {
+  background-color: black;
+  color: white;
+}
+
+.white_background i {
+  margin-right: 5px;
+}
+.select :first-child i {
+  position: absolute;
+  color: white;
+}

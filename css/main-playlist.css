@@ -1,0 +1,42 @@
+.playlist_time {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0px 30px;
+}
+.play__range {
+  display: flex;
+  justify-content: center;
+}
+.play__range input {
+  width: 80%;
+}
+
+.main__play-btns {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 40px;
+}
+
+.main__play-btns i {
+  margin: 40px;
+}
+
+.main__play-btns-play {
+  background-color: black;
+  border-radius: 50%;
+  height: 80px;
+  width: 80px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.main__play-btns-play i {
+  color: white;
+}
+
+.white-smoke {
+  color: rgba(0, 0, 0, 0.4);
+}

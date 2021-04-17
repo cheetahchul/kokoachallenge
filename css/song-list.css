@@ -1,0 +1,80 @@
+.song__menu {
+  display: flex;
+  justify-content: center;
+  display: flex;
+
+  flex-direction: column;
+  align-items: center;
+}
+.song__lists {
+  margin: 0px 30px;
+}
+
+.song__list {
+  width: 400px;
+  height: 80px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 15px;
+  border-radius: 20px;
+}
+.select {
+  background-color: rgba(202, 151, 186, 0.1);
+  border-radius: 20px;
+  box-shadow: 3px 3px 3px #f4d8f8;
+}
+
+.album__picture {
+  display: flex;
+  justify-content: center;
+}
+.album__picture img {
+  width: 80px;
+  height: 80px;
+  border-radius: 20px;
+}
+
+.album__introduce {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  margin-left: 20px;
+}
+.album__singer_name {
+  color: rgba(0, 0, 0, 0.4);
+  margin-bottom: 5px;
+}
+
+.song__list i {
+  color: rgba(0, 0, 0, 0.4);
+  margin: 30px;
+}
+
+@keyframes Beat {
+  0% {
+    color: white;
+    transform: none;
+  }
+  50% {
+    color: tomato;
+    transform: scale(1.5);
+  }
+  100% {
+    color: white;
+    transform: none;
+  }
+}
+
+.select :first-child i,
+.singer_btn:hover i {
+  will-change: transform;
+  animation: Beat 1s linear infinite;
+}
+
+.song__lists :hover {
+  background-color: palevioletred;
+}

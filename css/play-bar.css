@@ -1,0 +1,27 @@
+.play__bar {
+  margin-top: 10px;
+  background-color: black;
+  opacity: 0.8;
+  width: 380px;
+  border-radius: 40px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  color: white;
+}
+.play__bar_introduce {
+  margin-left: 10px;
+}
+.play__bar_song {
+  color: gray;
+}
+.play__bar_song_title {
+  color: white;
+}
+.play__btns {
+  margin-right: 20px;
+}
+.play__btns i {
+  margin-left: 40px;
+}
